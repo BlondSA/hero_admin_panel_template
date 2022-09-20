@@ -1,0 +1,79 @@
+{
+  "heroes": [
+    {
+      "id": 1,
+      "name": "Первый герой",
+      "description": "Первый герой в рейтинге!",
+      "element": "fire"
+    },
+    {
+      "id": 3,
+      "name": "Морской герой",
+      "description": "Как о не из DC",
+      "element": "water"
+    },
+    {
+      "id": "15454b61-1c58-4bef-b270-304910e7d808",
+      "name": "Joe",
+      "description": "Все",
+      "element": "water"
+    },
+    {
+      "id": "c09374e6-ad43-4041-8ec9-41c316a0226b",
+      "name": "Collin",
+      "description": "Pro",
+      "element": "earth"
+    },
+    {
+      "id": "45dfffe5-46f6-4966-82d4-24c3880c4a7e",
+      "name": "Stan",
+      "description": "Swimming",
+      "element": "wind"
+    },
+    {
+      "id": "b325804c-b649-46f1-9412-5091a9f6dbec",
+      "name": "Allf",
+      "description": "action",
+      "element": "water"
+    },
+    {
+      "id": "66fb36ba-4154-4827-a534-abfbd903075c",
+      "name": "Dobbie",
+      "description": "Help",
+      "element": "earth"
+    },
+    {
+      "id": "9dd3ccdf-3a56-45e8-b532-0fcd9e9f123c",
+      "name": "Второй герой",
+      "description": "Второй",
+      "element": "water"
+    }
+  ],
+  "filters": [
+    {
+      "name": "all",
+      "label": "Все",
+      "className": "btn-outline-dark"
+    },
+    {
+      "name": "fire",
+      "label": "Огонь",
+      "className": "btn-danger"
+    },
+    {
+      "name": "water",
+      "label": "Вода",
+      "className": "btn-primary"
+    },
+    {
+      "name": "wind",
+      "label": "Ветер",
+      "className": "btn-success"
+    },
+    {
+      "name": "earth",
+      "label": "Земля",
+      "className": "btn-secondary"
+    }
+  ]
+}
