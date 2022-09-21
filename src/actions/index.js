@@ -25,70 +25,14 @@ const fetchFilters = (request) => (dispatch) => {
 };
 
 const heroesFetching = createAction(HEROES_FETCHING);
-
-// const heroesFetching = () => {
-// 	return {
-// 		type: HEROES_FETCHING,
-// 	};
-// };
-
 const heroesFetched = createAction(HEROES_FETCHED);
-
-// const heroesFetched = (heroes) => {
-// 	return {
-// 		type: HEROES_FETCHED,
-// 		payload: heroes,
-// 	};
-// };
-
-const heroesFetchingError = () => {
-	return {
-		type: HEROES_FETCHING_ERROR,
-	};
-};
-
-const filtersFetching = () => {
-	return {
-		type: FILTERS_FETCHING,
-	};
-};
-
-const filtersFetched = (filters) => {
-	return {
-		type: FILTERS_FETCHED,
-		payload: filters,
-	};
-};
-
-const activeFilterChanged = (nameFilter) => {
-	return { type: ACTIVE_FILTER_CHANGED, payload: nameFilter };
-};
-
-// const activeFilterChanged = (nameFilter) => (dispatch) => {
-// 	setTimeout(() => {
-// 		dispatch({ type: ACTIVE_FILTER_CHANGED, payload: nameFilter });
-// 	}, 1000);
-// };
-
-const filtersFetchingError = () => {
-	return {
-		type: FILTERS_FETCHING_ERROR,
-	};
-};
-
-const heroWasAdded = (hero) => {
-	return {
-		type: HERO_WAS_ADDED,
-		payload: hero,
-	};
-};
-
-const heroWasRemoved = (id) => {
-	return {
-		type: HERO_WAS_REMOVED,
-		payload: id,
-	};
-};
+const heroesFetchingError = createAction(HEROES_FETCHING_ERROR);
+const filtersFetching = createAction(FILTERS_FETCHING);
+const filtersFetched = createAction(FILTERS_FETCHED);
+const activeFilterChanged = createAction(ACTIVE_FILTER_CHANGED);
+const filtersFetchingError = createAction(FILTERS_FETCHING_ERROR);
+const heroWasAdded = createAction(HERO_WAS_ADDED);
+const heroWasRemoved = createAction(HERO_WAS_REMOVED);
 
 export {
 	activeFilterChanged,

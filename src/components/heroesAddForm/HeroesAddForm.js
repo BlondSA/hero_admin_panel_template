@@ -116,7 +116,7 @@ const HeroesAddForm = () => {
 					value={heroElement}
 					onChange={(e) => setHeroElement(e.target.value)}
 				>
-					<option value="default">Я владею элементом...</option>
+					<option value="">Я владею элементом...</option>
 					{renderFilters(filters, filtersLoadingStatus)}
 				</select>
 			</div>

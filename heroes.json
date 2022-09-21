@@ -23,30 +23,6 @@
       "name": "Collin",
       "description": "Pro",
       "element": "earth"
-    },
-    {
-      "id": "45dfffe5-46f6-4966-82d4-24c3880c4a7e",
-      "name": "Stan",
-      "description": "Swimming",
-      "element": "wind"
-    },
-    {
-      "id": "b325804c-b649-46f1-9412-5091a9f6dbec",
-      "name": "Allf",
-      "description": "action",
-      "element": "water"
-    },
-    {
-      "id": "66fb36ba-4154-4827-a534-abfbd903075c",
-      "name": "Dobbie",
-      "description": "Help",
-      "element": "earth"
-    },
-    {
-      "id": "9dd3ccdf-3a56-45e8-b532-0fcd9e9f123c",
-      "name": "Второй герой",
-      "description": "Второй",
-      "element": "water"
     }
   ],
   "filters": [
