@@ -5,7 +5,7 @@ import {
 	activeFilterChanged,
 	filtersFetched,
 	filtersFetchingError,
-} from "../actions";
+} from "../components/heroesFilters/filtersSlice";
 
 const initialState = {
 	filters: [],

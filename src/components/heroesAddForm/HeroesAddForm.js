@@ -9,7 +9,7 @@
 // данных из фильтров
 import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
-import { heroWasAdded } from "../../actions";
+import { heroWasAdded } from "../heroesList/heroesSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { useHttp } from "../../hooks/http.hook";
 
