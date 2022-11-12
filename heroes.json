@@ -13,22 +13,16 @@
       "element": "water"
     },
     {
-      "id": "15454b61-1c58-4bef-b270-304910e7d808",
-      "name": "Joe",
-      "description": "Все",
-      "element": "water"
-    },
-    {
-      "id": "c09374e6-ad43-4041-8ec9-41c316a0226b",
-      "name": "Collin",
-      "description": "Pro",
+      "id": "f45aa5c1-ec27-4833-8f84-657152bef332",
+      "name": "asdsad",
+      "description": "asdasd",
       "element": "earth"
     },
     {
-      "id": "9a0a7d18-3b99-4264-abcf-2f6cf2ce7f29",
-      "name": "sadsads",
-      "description": "sadsad",
-      "element": "water"
+      "id": "77f02778-2aef-4f7c-ae67-2304ad73d27c",
+      "name": "Adam",
+      "description": "rt",
+      "element": "wind"
     }
   ],
   "filters": [
