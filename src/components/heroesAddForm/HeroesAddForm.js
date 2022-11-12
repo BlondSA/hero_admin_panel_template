@@ -12,11 +12,12 @@ import { v4 as uuidv4 } from "uuid";
 import { heroWasAdded } from "../heroesList/heroesSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { useHttp } from "../../hooks/http.hook";
+import store from "../../store";
+import { selectAll } from "../heroesFilters/heroesFiltersSlice";
 
 const HeroesAddForm = () => {
-	const { filters, filtersLoadingStatus } = useSelector(
-		(state) => state.filters
-	);
+	const { filtersLoadingStatus } = useSelector((state) => state.filters);
+	const filters = selectAll(store.getState());
 	const [heroName, setHeroName] = useState("");
 	const [heroDescription, setHeroDescription] = useState("");
 	const [heroElement, setHeroElement] = useState("default");
