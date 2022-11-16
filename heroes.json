@@ -1,60 +1,66 @@
 {
-	"heroes": [
-		{
-			"id": 1,
-			"name": "Первый герой",
-			"description": "Первый герой в рейтинге!",
-			"element": "fire"
-		},
-		{
-			"id": 3,
-			"name": "Морской герой",
-			"description": "Как о не из DC",
-			"element": "water"
-		},
-		{
-			"id": "f45aa5c1-ec27-4833-8f84-657152bef332",
-			"name": "asdsad",
-			"description": "asdasd",
-			"element": "earth"
-		},
-		{
-			"id": "0ecd4487-ed87-48e8-bb53-557ed77c26e8",
-			"name": "Vas",
-			"description": "yell",
-			"element": "wind"
-		}
-	],
-	"filters": [
-		{
-			"id": "all",
-			"name": "all",
-			"label": "Все",
-			"className": "btn-outline-dark"
-		},
-		{
-			"id": "fire",
-			"name": "fire",
-			"label": "Огонь",
-			"className": "btn-danger"
-		},
-		{
-			"id": "water",
-			"name": "water",
-			"label": "Вода",
-			"className": "btn-primary"
-		},
-		{
-			"id": "wind",
-			"name": "wind",
-			"label": "Ветер",
-			"className": "btn-success"
-		},
-		{
-			"id": "earth",
-			"name": "earth",
-			"label": "Земля",
-			"className": "btn-secondary"
-		}
-	]
+  "heroes": [
+    {
+      "id": 1,
+      "name": "Первый герой",
+      "description": "Первый герой в рейтинге!",
+      "element": "fire"
+    },
+    {
+      "id": 3,
+      "name": "Морской герой",
+      "description": "Как о не из DC",
+      "element": "water"
+    },
+    {
+      "id": "f45aa5c1-ec27-4833-8f84-657152bef332",
+      "name": "asdsad",
+      "description": "asdasd",
+      "element": "earth"
+    },
+    {
+      "id": "0ecd4487-ed87-48e8-bb53-557ed77c26e8",
+      "name": "Vas",
+      "description": "yell",
+      "element": "wind"
+    },
+    {
+      "id": "0b977262-16a0-4fb8-9035-c8f50af94942",
+      "name": "a",
+      "description": "a",
+      "element": "fire"
+    }
+  ],
+  "filters": [
+    {
+      "id": "all",
+      "name": "all",
+      "label": "Все",
+      "className": "btn-outline-dark"
+    },
+    {
+      "id": "fire",
+      "name": "fire",
+      "label": "Огонь",
+      "className": "btn-danger"
+    },
+    {
+      "id": "water",
+      "name": "water",
+      "label": "Вода",
+      "className": "btn-primary"
+    },
+    {
+      "id": "wind",
+      "name": "wind",
+      "label": "Ветер",
+      "className": "btn-success"
+    },
+    {
+      "id": "earth",
+      "name": "earth",
+      "label": "Земля",
+      "className": "btn-secondary"
+    }
+  ]
 }
